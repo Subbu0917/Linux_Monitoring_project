@@ -1,40 +1,29 @@
-# DevOps Internship Project – Containerized Application Deployment
+# Linux System Monitoring Automation
 
 ## Project Overview
-This project demonstrates a DevOps workflow for deploying a full-stack application using containerization and CI/CD automation. The project includes frontend and backend services that are containerized using Docker and deployed using Docker Compose.
+This project is a Linux-based monitoring automation tool developed using Bash scripting. The script monitors key system resources such as CPU usage, memory usage, and disk utilization, and logs the system performance data.
 
-The goal of this project is to simulate a real-world DevOps environment where application build, integration, and deployment processes are automated.
+The objective of this project is to automate system health monitoring for Linux environments and assist administrators in tracking system resource usage.
 
 ## Tools & Technologies
-- Docker
-- Docker Compose
-- GitHub Actions
 - Linux
-- Bash
-- Git
+- Bash Scripting
+- System Monitoring Commands
+- Log File Management
 
-## Architecture
-The project contains two main services:
-- **Frontend Application**
-- **Backend Application**
+## Features
+- Monitors CPU utilization
+- Tracks memory usage
+- Monitors disk space usage
+- Generates log files for system performance tracking
+- Automates system monitoring tasks
 
-Both services are containerized using Docker and orchestrated using Docker Compose for simplified deployment and management.
-
-## CI/CD Pipeline
-GitHub Actions workflows are used to automate:
-- Code integration
-- Application build process
-- Container deployment workflow
-
-## Key Features
-- Containerized frontend and backend services
-- Automated CI/CD pipeline using GitHub Actions
-- Simplified application deployment using Docker Compose
-- Version-controlled infrastructure and application code
+## How It Works
+The Bash script periodically checks system resource usage using Linux commands and records the output in a log file. This helps administrators analyze system performance and detect potential issues.
 
 ## Learning Outcomes
-Through this project, I gained hands-on experience with:
-- Containerization using Docker
-- Managing multi-container applications
-- Implementing CI/CD pipelines
-- DevOps workflow automation
+Through this project, I gained practical experience in:
+- Linux system administration
+- Bash scripting automation
+- System monitoring and logging
+- Troubleshooting Linux environments
